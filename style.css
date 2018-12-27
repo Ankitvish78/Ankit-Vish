@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css?family=Didact+Gothic');
+
+html, body{
+	height: 100%;
+	width: 100%;
+}
+
+.web_designer{
+	font-family: 'Didact Gothic', sans-serif;
+ 	color: white;
+}
+
+.navbar{
+	background-color: black;
+	padding: 1% 0;
+	font-size: 1.2em;
+}
+
+.navbar-brand{
+	min-height: 55px;
+	padding: 0 15px 5px;
+}
+
+/*.logo{
+	height: 100%;
+	widows: 100%;
+}*/
+
+.navbar-default .navbar-nav li a{
+	color: #D5D5D5; 
+}
+
+.navbar-default .navbar-nav li a:hover, .navbar-default .navbar-nav li a.active{
+	color: #FFF;
+}
+
+.carousel-inner img
+{
+	width: 100%;
+	height: 100%;
+}
+
+.carousel-caption
+{
+	/*position: absolute;*/
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.carousel-caption h1
+{
+	font-size: 500%;
+	text-transform: uppercase;
+	text-shadow: 1px 1px 15px #000;
+}
+
+.carousel-caption h3
+{
+	font-size: 200%;
+	font-weight: 500;
+	text-shadow: 1px 1px 10px #000;
+	padding-bottom: 1rem;
+}
+
+.btn-primary
+{
+	background-color: #007bff;
+	border: 1px solid white;
+}
+
+.btn-primary:hover
+{
+	background-color: #007bff;
+	border: 1px solid black;
+}
+
+/*#home{
+	background: url(img/5.jpeg) no-repeat center center fixed;
+	display: table;
+	height: 100%;
+	position: relative;
+	width: 100%;
+	background-size: cover; 
+}*/
+
+.landing-text{
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.landing-text h1{
+	font-size: 500%;
+	font-weight: 700;
+}
+
+.padding{
+	padding: 80px 0;
+}
+
+.padding img{
+	width: 100%;
+}
+
+.ser-content{
+	font-size: 2em;
+}
+
+/*
+#fixed{
+	background: url(img/5.jpeg);
+	display: table;
+	height: 60%;
+	position: relative;
+	width: 100%;
+	background-size: cover;
+}*/
+
+/*footer{
+	width: 100%;
+	background-color: #23415C;
+	padding: 5% 5% 10% 5%;
+	color: #FFF;
+}
+*/
+.fa{
+	padding: 15px;
+	font-size: 25px;
+	color: #FFF;
+}
+
+.fa:hover{
+	color: #D5D5D5;
+	text-decoration: none;
+}
+
+.icon{
+	max-width: 200px;
+}
+
+@media(max-width: 768px){
+
+	.navbar-brand{
+		font-size: 250%;
+	}
+
+	.landing-text h1{
+		font-size: 300%;
+	}
+
+	.fa{
+		font-size: 20px;
+		padding: 10px;
+	}
+
+	.icon{
+		padding-top: 5%;
+		max-width: 100px;
+	}
+
+	.carousel-inner-1 img
+	{
+		width: 100%;
+		height: 100%;
+	}
+
+	.carousel-caption
+	{
+		top: 40%;
+	}
+
+	.carousel-caption h1
+	{
+		font-size: 250%;
+	}
+
+	.carousel-caption h3
+	{
+		font-size: 110%;
+	}
+
+	.carousel-caption .btn
+	{
+		font-size: 90%;
+		padding: 4px 8px;
+	}
+
+	ul.carousel-indicators
+	{
+		display: none;
+	}
+
+}
+
+footer .snka
+{
+	background-color: black;/*#3f3f3f;*/
+	color: #d5d5d5;
+	padding-top: 1rem;
+	padding-bottom: 3rem;
+}
+
+/* Contact */
+
+#contact
+{
+	background: #efefef;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	color: #777;
+}
+.contact-form
+{
+	padding: 15px;
+}
+.form-control
+{
+	border-radius: 0;
+	border: none;
+}
+::placeholder
+{
+	color: #999;
+}
+.alert{
+  text-align: center;
+  padding: 10px;
+  background: #007bff;
+  color: #fff;
+  margin-bottom: 10px;
+  display: none;
+}
+.follow
+{
+	background: #fff;
+	padding-top: 0px;
+	padding-left: 10px;
+	margin: 15px;
+}
+.contact-info .fa
+{
+	margin: 0px;
+	color: #007bff;
+	font-weight: bold;
+}
+
+/* Footer */
+
+#footer
+{
+	background: #333;
+	color: #fff;
+	padding: 12px;
+}
+.fa-heart-o
+{
+	margin: 0px;
+	color: red;
+	font-size: 20px;
+}
+.copyright
+{
+	color: gray;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
