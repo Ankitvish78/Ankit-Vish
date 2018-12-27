@@ -138,6 +138,13 @@ html, body{
 	max-width: 200px;
 }
 
+@media(max-width: 576px){
+
+	.navbar-brand{
+		font-size: 150px;
+	}}
+	
+	
 @media(max-width: 768px){
 
 	.navbar-brand{
