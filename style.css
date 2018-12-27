@@ -136,14 +136,7 @@ html, body{
 
 .icon{
 	max-width: 200px;
-}
-
-@media(max-width: 576px){
-
-	.navbar-brand{
-		font-size: 100℅;
-	}}
-	
+}	
 	
 @media(max-width: 768px){
 
