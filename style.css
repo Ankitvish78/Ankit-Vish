@@ -11,7 +11,7 @@ html, body{
 }
 
 .navbar{
-	background-color: black;
+	background-color: black;				
 	padding: 1% 0;
 	font-size: 1.2em;
 }
@@ -26,6 +26,11 @@ html, body{
 	widows: 100%;
 }*/
 
+.navbar-toggle
+{
+	border: none!important;
+	outline: none!important;
+}
 .navbar-default .navbar-nav li a{
 	color: #D5D5D5; 
 }
@@ -136,12 +141,19 @@ html, body{
 
 .icon{
 	max-width: 200px;
-}	
-	
-@media(max-width: 768px){
+}
+
+@media(min-width: 330px){
 
 	.navbar-brand{
-		font-size: 250%;
+		font-size: 80%;
+	}
+}
+
+@media(max-width: 768px){
+
+	.navbar-brand h2{
+		font-size: 150%;
 	}
 
 	.landing-text h1{
@@ -262,33 +274,5 @@ footer .snka
 {
 	color: gray;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
