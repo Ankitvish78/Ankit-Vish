@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Didact+Gothic');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
 
 html, body{
 	height: 100%;
@@ -19,6 +20,10 @@ html, body{
 .navbar-brand{
 	min-height: 55px;
 	padding: 0 15px 5px;
+}
+ul
+{
+	font-family: 'Roboto Condensed', sans-serif;
 }
 
 /*.logo{
@@ -54,6 +59,7 @@ html, body{
 
 .carousel-caption h1
 {
+	font-family: 'Roboto Condensed', sans-serif;
 	font-size: 500%;
 	text-transform: uppercase;
 	text-shadow: 1px 1px 15px #000;
@@ -61,6 +67,7 @@ html, body{
 
 .carousel-caption h3
 {
+	font-family: 'Roboto Condensed', sans-serif;
 	font-size: 200%;
 	font-weight: 500;
 	text-shadow: 1px 1px 10px #000;
@@ -99,6 +106,10 @@ html, body{
 	font-weight: 700;
 }
 
+.col-sm-6 h2
+{
+	font-family: 'Roboto Condensed', sans-serif;
+}
 .padding{
 	padding: 80px 0;
 }
@@ -107,6 +118,10 @@ html, body{
 	width: 100%;
 }
 
+.ser_title
+{
+	font-family: 'Roboto Condensed', sans-serif;
+}
 .ser-content{
 	font-size: 2em;
 }
@@ -204,7 +219,7 @@ html, body{
 
 }
 
-footer .snka
+footer
 {
 	background-color: black;/*#3f3f3f;*/
 	color: #d5d5d5;
@@ -221,6 +236,11 @@ footer .snka
 	padding-bottom: 40px;
 	color: #777;
 }
+#contact h1
+{
+	color: #007bff;
+	font-family: 'Roboto Condensed', sans-serif;
+}
 .contact-form
 {
 	padding: 15px;
@@ -233,6 +253,11 @@ footer .snka
 ::placeholder
 {
 	color: #999;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+button
+{
+	font-family: 'Roboto Condensed', sans-serif;
 }
 .alert{
   text-align: center;
@@ -244,6 +269,7 @@ footer .snka
 }
 .follow
 {
+	font-family: 'Roboto Condensed', sans-serif;
 	background: #fff;
 	padding-top: 0px;
 	padding-left: 10px;
@@ -274,5 +300,33 @@ footer .snka
 {
 	color: gray;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
